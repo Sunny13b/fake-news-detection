@@ -85,7 +85,8 @@ def predict_news(text):
 # ==============================
 # UI
 # ==============================
-st.title("📰 Fake News Detector - 95% accuracy")
+st.title("📰 Fake News Detector")
+st.markdown("### Achieved - 95% accuracy")
 st.write("Paste new title and fews first lines to check")
 
 text = st.text_area("News Text", height=200)
